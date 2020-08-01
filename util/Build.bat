@@ -11,16 +11,28 @@ if %DirName%==modules (set FileExt=mod)
 echo %FileExt%
 popd
 
-set FileName="%FileName%.%FileExt%"
-echo %FileName%
+set FileName=%FileName%.%FileExt%
 
 rem create source
-del source.zip
+echo building %FileName%
+IF EXIST source.zip  (
+    del "source.zip"
+)
+IF EXIST %FileName%  (
+    del "%FileName%"
+)
 "%PROGRAMFILES%\7-Zip\7z.exe" a source.zip .\source\*
-del %FileName%
 ren source.zip "%FileName%"
 
-rem copy build
-set FinalDest="%APPDATA%/SmiteWorks/Fantasy Grounds/%DirName%/"
+rem move build
+set FinalDest=%APPDATA%\SmiteWorks\Fantasy Grounds\%DirName%\%FileName%
 echo %FinalDest%
-cp %FileName% %FinalDest%
+cp "%FileName%" "%FinalDest%"
+
+rem clean up
+IF EXIST source.zip  (
+    del "source.zip"
+)
+IF EXIST %FileName%  (
+    del "%FileName%"
+)

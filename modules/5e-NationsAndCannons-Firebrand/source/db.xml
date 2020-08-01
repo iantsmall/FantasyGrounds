@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root version="4" dataversion="20200203" release="8|CoreRPG:4">
 	<library>
-		<theillrigger static="true">
+		<firebrand static="true">
 			<categoryname type="string">Classes</categoryname>
 			<name type="string">Firebrand</name>
 			<entries>
@@ -36,7 +36,7 @@
 					<recordtype type="string">spell</recordtype>
 				</spell>
 			</entries>
-		</theillrigger>
+		</firebrand>
 	</library>
 	<pregencharsheet>
 		<id-00001>
@@ -96,7 +96,7 @@
 					<hddie type="dice">d10</hddie>
 					<hdused type="number">0</hdused>
 					<level type="number">20</level>
-					<name type="string">Illrigger</name>
+					<name type="string">Firebrand</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
 						<recordname>reference.classdata.id-00001</recordname>
@@ -148,7 +148,7 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Forked Tongue</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>You have a facility with speech and know how to manipulate an audience. Whenever you make an ability check to persuade, deceive, or intimidate, you can treat a d20 roll of 7 or lower as an 8.</p>
@@ -158,10 +158,10 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Infernal Conduit</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
-						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the illrigger chart. With these dice you can transfer hit points between your illrigger and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
+						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the firebrand chart. With these dice you can transfer hit points between your firebrand and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
 						<p>As an action, choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. On a miss, nothing happens, you do not roll or lose your pool dice. If you hit, or if you’re targeting a willing creature, roll the chosen dice.</p>
 						<p>The result of your roll is the number of hit points you transfer. If touching an ally they gain that many hit points, ignoring any excess above their maximum. You lose hit points equal to the number they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.</p>
 						<p>If touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you are fully healed, you may use this power to gain temporary hit points. You cannot give another creature temporary hit points.</p>
@@ -172,13 +172,13 @@
 					<level type="number">2</level>
 					<locked type="number">1</locked>
 					<name type="string">Baleful Interdict</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>Upon reaching 2nd level, you learn to use the power of hell to censure other creatures. As a bonus action, place a seal on a target within 30’. You can do this a number of times equal to your charisma modifier. You replenish all your seals after a <b>short or long rest</b>.</p>
 						<p>When you or an ally hits a target you can see with a seal on them, you may consume the seals to cause the attack to deal an additional 2d6 necrotic damage on the target per seal consumed. If you are within 30 feet of the target, you heal two points of damage for each die of damage your seals inflict.</p>
 						<p>A creature with a seal on them is an <i>interdicted</i> creature.</p>
-						<p>Seals evaporate if not used after one minute. Only the illrigger who placed the seal knows it’s there; it appears in the illrigger’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
+						<p>Seals evaporate if not used after one minute. Only the firebrand who placed the seal knows it’s there; it appears in the firebrand’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
 						<p>Upon reaching 10th level you feel your connection to your archdevil increase. Your seals inflict an extra 1d6 damage.</p>
 						<p>Your seals improve differently based on which contract you choose. These improvements are listed under your contract, below.</p>
 					</text>
@@ -187,10 +187,10 @@
 					<level type="number">2</level>
 					<locked type="number">1</locked>
 					<name type="string">Fighting Style</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
-						<p>At 2nd level you choose an illrigger Fighting Style;</p>
+						<p>At 2nd level you choose an firebrand Fighting Style;</p>
 						<p>
 							<b>Treachery</b>
 						</p>
@@ -212,12 +212,12 @@
 				<id-00005>
 					<locked type="number">1</locked>
 					<name type="string">Shadowmaster</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<text type="formattedtext">
 						<p>
 							<i>The shadowmasters serve Moloch and excel at stealth and disguise, the hidden assassins of Hell.</i>
 						</p>
-						<p>Moloch is the Lord of Styx, the City of Lies. He strives to rule Hell through subterfuge, deceit and trickery. His illriggers are assassins, striking from the shadows or using deception to earn high ranking positions close to powerful rulers. Many shadowmasters run networks of spies and assassins who have no idea the infernal provenance of their master.</p>
+						<p>Moloch is the Lord of Styx, the City of Lies. He strives to rule Hell through subterfuge, deceit and trickery. His firebrands are assassins, striking from the shadows or using deception to earn high ranking positions close to powerful rulers. Many shadowmasters run networks of spies and assassins who have no idea the infernal provenance of their master.</p>
 						<p>The shadowmasters are sworn not to reveal themselves and to take their own lives before betraying their true allegiance. Many Shadowmasters have elaborate plans ready for their own assassination so that, should someone get close to discovering their true identity, they will be killed by their own assassins, preserving the truth. Of course, these killers have no idea who they were really working for…</p>
 						<h>Features</h>
 						<linklist>
@@ -241,7 +241,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Invoke Authority (Shadowmaster)</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -256,7 +256,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Tenets of Shadow</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -275,7 +275,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Diabolic Contract</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">1</specializationchoice>
 					<text type="formattedtext">
 						<p>Upon reaching 3rd level you sign a diabolic contract with your archdevil who welcomes you into the Order of Desolation. Choose either Shadowmaster (Moloch), Painkiller (Dispater) or Architect of Ruin (Asmodeus) as your archdevil.</p>
@@ -286,7 +286,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Flash of Brimstone</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -297,7 +297,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Bonus Proficiencies (Shadowmaster)</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -308,7 +308,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Hellsight</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>By 3rd level your mastery of deception makes it easy for you to recognize the use of concealing sorcery. As an action you extend your awareness out from you. Until the end of your next turn, you know the location of creatures within 60 feet using magic to hide or disguise themselves.</p>
@@ -319,7 +319,7 @@
 					<level type="number">4</level>
 					<locked type="number">1</locked>
 					<name type="string">Ability Score Improvement</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
@@ -329,7 +329,7 @@
 					<level type="number">5</level>
 					<locked type="number">1</locked>
 					<name type="string">Extra Attack</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
@@ -339,7 +339,7 @@
 					<level type="number">6</level>
 					<locked type="number">1</locked>
 					<name type="string">Marked for Death</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -350,7 +350,7 @@
 					<level type="number">7</level>
 					<locked type="number">1</locked>
 					<name type="string">Relentless</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -361,7 +361,7 @@
 					<level type="number">9</level>
 					<locked type="number">1</locked>
 					<name type="string">Only a Memory</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -372,7 +372,7 @@
 					<level type="number">10</level>
 					<locked type="number">1</locked>
 					<name type="string">He is the Darkness</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -383,7 +383,7 @@
 					<level type="number">13</level>
 					<locked type="number">1</locked>
 					<name type="string">Evasion</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -394,7 +394,7 @@
 					<level type="number">14</level>
 					<locked type="number">1</locked>
 					<name type="string">Aura of Desolation</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>At 14th level you radiate a magical aura of evil. Whenever a hostile creature within 15 feet of you makes an attack roll or a saving throw, it must roll a d4 and subtract the number rolled from the result.</p>
@@ -404,7 +404,7 @@
 					<level type="number">15</level>
 					<locked type="number">1</locked>
 					<name type="string">Summon Hell</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>At 15th level you gain the ability to summon a Bone devil to serve you for one minute as an action once a week. The devil appears in an unoccupied space within 30’, it is bound to you and must obey your commands to the best of its ability. It acts on the same initiative you act on, and may both act and move on the turn you summon it. If you die or fall unconscious, the devil returns to Hell.</p>
@@ -414,7 +414,7 @@
 					<level type="number">17</level>
 					<locked type="number">1</locked>
 					<name type="string">Dark and Vile Mist</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -425,7 +425,7 @@
 					<level type="number">18</level>
 					<locked type="number">1</locked>
 					<name type="string">Hells's Assassin</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -436,7 +436,7 @@
 					<level type="number">20</level>
 					<locked type="number">1</locked>
 					<name type="string">Shadowform</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Shadowmaster</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -448,7 +448,7 @@
 					<locked type="number">1</locked>
 					<name type="string">Dagger Adept</name>
 					<specialization type="string">Shadowmaster</specialization>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>Your training makes you skilled with certain light weapons. While two-weapon fighting with daggers and/or sickles, you can add your ability modifier to the damage of the second attack, and you can draw or stow two daggers or sickles when you would normally be able to draw or stow only one.</p>
@@ -707,7 +707,7 @@
 					</actions>
 					<cast type="number">0</cast>
 					<description type="formattedtext">
-						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the illrigger chart. With these dice you can transfer hit points between your illrigger and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
+						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the firebrand chart. With these dice you can transfer hit points between your firebrand and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
 						<p>As an action, choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. On a miss, nothing happens, you do not roll or lose your pool dice. If you hit, or if you’re targeting a willing creature, roll the chosen dice.</p>
 						<p>The result of your roll is the number of hit points you transfer. If touching an ally they gain that many hit points, ignoring any excess above their maximum. You lose hit points equal to the number they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.</p>
 						<p>If touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you are fully healed, you may use this power to gain temporary hit points. You cannot give another creature temporary hit points.</p>
@@ -718,7 +718,7 @@
 					<locked type="number">1</locked>
 					<name type="string">Infernal Conduit</name>
 					<prepared type="number">0</prepared>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 				</id-00002>
 				<id-00003>
@@ -765,7 +765,7 @@
 						<p>Upon reaching 2nd level, you learn to use the power of hell to censure other creatures. As a bonus action, place a seal on a target within 30’. You can do this a number of times equal to your charisma modifier. You replenish all your seals after a <b>short or long rest</b>.</p>
 						<p>When you or an ally hits a target you can see with a seal on them, you may consume the seals to cause the attack to deal an additional 2d6 necrotic damage on the target per seal consumed. If you are within 30 feet of the target, you heal two points of damage for each die of damage your seals inflict.</p>
 						<p>A creature with a seal on them is an <i>interdicted</i> creature.</p>
-						<p>Seals evaporate if not used after one minute. Only the illrigger who placed the seal knows it’s there; it appears in the illrigger’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
+						<p>Seals evaporate if not used after one minute. Only the firebrand who placed the seal knows it’s there; it appears in the firebrand’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
 						<p>Upon reaching 10th level you feel your connection to your archdevil increase. Your seals inflict an extra 1d6 damage.</p>
 						<p>Your seals improve differently based on which contract you choose. These improvements are listed under your contract, below.</p>
 					</description>
@@ -879,7 +879,7 @@
 					</actions>
 					<cast type="number">0</cast>
 					<description type="formattedtext">
-						<p>At 2nd level you choose an illrigger Fighting Style;</p>
+						<p>At 2nd level you choose an firebrand Fighting Style;</p>
 						<p>
 							<b>Treachery</b>
 						</p>
@@ -1235,7 +1235,7 @@
 					<hddie type="dice">d10</hddie>
 					<hdused type="number">0</hdused>
 					<level type="number">20</level>
-					<name type="string">Illrigger</name>
+					<name type="string">Firebrand</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
 						<recordname>reference.classdata.id-00001</recordname>
@@ -1260,7 +1260,7 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Forked Tongue</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>You have a facility with speech and know how to manipulate an audience. Whenever you make an ability check to persuade, deceive, or intimidate, you can treat a d20 roll of 7 or lower as an 8.</p>
@@ -1270,10 +1270,10 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Infernal Conduit</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
-						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the illrigger chart. With these dice you can transfer hit points between your illrigger and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
+						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the firebrand chart. With these dice you can transfer hit points between your firebrand and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
 						<p>As an action, choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. On a miss, nothing happens, you do not roll or lose your pool dice. If you hit, or if you’re targeting a willing creature, roll the chosen dice.</p>
 						<p>The result of your roll is the number of hit points you transfer. If touching an ally they gain that many hit points, ignoring any excess above their maximum. You lose hit points equal to the number they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.</p>
 						<p>If touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you are fully healed, you may use this power to gain temporary hit points. You cannot give another creature temporary hit points.</p>
@@ -1284,13 +1284,13 @@
 					<level type="number">2</level>
 					<locked type="number">1</locked>
 					<name type="string">Baleful Interdict</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>Upon reaching 2nd level, you learn to use the power of hell to censure other creatures. As a bonus action, place a seal on a target within 30’. You can do this a number of times equal to your charisma modifier. You replenish all your seals after a <b>short or long rest</b>.</p>
 						<p>When you or an ally hits a target you can see with a seal on them, you may consume the seals to cause the attack to deal an additional 2d6 necrotic damage on the target per seal consumed. If you are within 30 feet of the target, you heal two points of damage for each die of damage your seals inflict.</p>
 						<p>A creature with a seal on them is an <i>interdicted</i> creature.</p>
-						<p>Seals evaporate if not used after one minute. Only the illrigger who placed the seal knows it’s there; it appears in the illrigger’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
+						<p>Seals evaporate if not used after one minute. Only the firebrand who placed the seal knows it’s there; it appears in the firebrand’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
 						<p>Upon reaching 10th level you feel your connection to your archdevil increase. Your seals inflict an extra 1d6 damage.</p>
 						<p>Your seals improve differently based on which contract you choose. These improvements are listed under your contract, below.</p>
 					</text>
@@ -1299,10 +1299,10 @@
 					<level type="number">2</level>
 					<locked type="number">1</locked>
 					<name type="string">Fighting Style</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
-						<p>At 2nd level you choose an illrigger Fighting Style;</p>
+						<p>At 2nd level you choose an firebrand Fighting Style;</p>
 						<p>
 							<b>Treachery</b>
 						</p>
@@ -1324,13 +1324,13 @@
 				<id-00005>
 					<locked type="number">1</locked>
 					<name type="string">Architect of Ruin</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<text type="formattedtext">
 						<p>
 							<i>Hell’s Architects are cool and calculating arcane knights who deploy spell, steel and subterfuge to win the battle at any cost.</i>
 						</p>
-						<p>Asmodeus is the Lord of Acheron, the City of Fear. His illriggers scour the timescape collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other Lords of Hell is one of deception and propaganda.</p>
-						<p>Acheron’s illriggers work to make Hell’s enemies seem outnumbered and outmaneuvered. Half their strategy involves research and infiltration, the other half illusion and propaganda. When an Architect of Ruin finally confronts an enemy, they see the illrigger’s forces as impossibly powerful, while their own allies betray them and their armies flee in fear.</p>
+						<p>Asmodeus is the Lord of Acheron, the City of Fear. His firebrands scour the timescape collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other Lords of Hell is one of deception and propaganda.</p>
+						<p>Acheron’s firebrands work to make Hell’s enemies seem outnumbered and outmaneuvered. Half their strategy involves research and infiltration, the other half illusion and propaganda. When an Architect of Ruin finally confronts an enemy, they see the firebrand’s forces as impossibly powerful, while their own allies betray them and their armies flee in fear.</p>
 						<h>Features</h>
 						<linklist>
 							<link class="reference_classfeature" recordname="reference.classdata.id-00001.features.id-00016">Tenets of Ruin</link>
@@ -1351,7 +1351,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Invoke Authority (Architect of Ruin)</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1366,7 +1366,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Diabolic Contract</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">1</specializationchoice>
 					<text type="formattedtext">
 						<p>Upon reaching 3rd level you sign a diabolic contract with your archdevil who welcomes you into the Order of Desolation. Choose either Shadowmaster (Moloch), Painkiller (Dispater) or Architect of Ruin (Asmodeus) as your archdevil.You gain the Invoke Authority ability and choose either Shadowmaster (Moloch), Painkiller (Dispater) or Architect of Ruin (Asmodeus) as your archdevil.</p>
@@ -1382,7 +1382,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Tenets of Ruin</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1401,25 +1401,25 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Spellcasting</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
-						<p>When Asmodeus accepts you as an Architect of Ruin, you gain access to his infernal power and learn to access divine magic to cast illrigger spells.</p>
+						<p>When Asmodeus accepts you as an Architect of Ruin, you gain access to his infernal power and learn to access divine magic to cast firebrand spells.</p>
 						<p>
 							<b>Preparing and Casting Spells</b>
 						</p>
 						<p>
-							<b>Cantrips.</b> You learn two cantrips of your choice from the illrigger spell list. You learn an additional cantrip at 8th level.</p>
+							<b>Cantrips.</b> You learn two cantrips of your choice from the firebrand spell list. You learn an additional cantrip at 8th level.</p>
 						<p>
 							<b>Spell Slots.</b> The Architect of Ruin Spellcasting table shows how many spell slots you have. To cast one of these spells you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
-						<p>You prepare the list of illrigger spells that are available for you to cast, choosing from the illrigger spell list. When you do so, choose a number of illrigger spells equal to your Charisma modifier + half yourillrigger level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
-						<p>For example, if you are a 5th-level illrigger, you have three 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell hell’s lash , you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
-						<p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of illrigger spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+						<p>You prepare the list of firebrand spells that are available for you to cast, choosing from the firebrand spell list. When you do so, choose a number of firebrand spells equal to your Charisma modifier + half yourfirebrand level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+						<p>For example, if you are a 5th-level firebrand, you have three 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell hell’s lash , you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
+						<p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of firebrand spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
 						<p>
 							<b>Spellcasting Ability</b>
 						</p>
-						<p>Charisma is your spellcasting ability for your illrigger spells, since their power derives from your ability to command the attention of your patron archdevil. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for an illrigger spell you cast and when making an attack roll with one.</p>
+						<p>Charisma is your spellcasting ability for your firebrand spells, since their power derives from your ability to command the attention of your patron archdevil. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for an firebrand spell you cast and when making an attack roll with one.</p>
 						<p>
 							<b>Spell save DC =</b> 8 + your proficiency bonus + your Charisma modifier</p>
 						<p>
@@ -1429,7 +1429,7 @@
 						</p>
 						<table>
 							<tr>
-								<td>Illrigger Level</td>
+								<td>Firebrand Level</td>
 								<td>Cantrips Known</td>
 								<td>1st</td>
 								<td>2nd</td>
@@ -1606,7 +1606,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Hellsight</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>By 3rd level your mastery of deception makes it easy for you to recognize the use of concealing sorcery. As an action you extend your awareness out from you. Until the end of your next turn, you know the location of creatures within 60 feet using magic to hide or disguise themselves.</p>
@@ -1617,7 +1617,7 @@
 					<level type="number">4</level>
 					<locked type="number">1</locked>
 					<name type="string">Ability Score Improvement</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
@@ -1627,7 +1627,7 @@
 					<level type="number">5</level>
 					<locked type="number">1</locked>
 					<name type="string">Extra Attack</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
@@ -1637,7 +1637,7 @@
 					<level type="number">6</level>
 					<locked type="number">1</locked>
 					<name type="string">Hellmage</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1648,7 +1648,7 @@
 					<level type="number">7</level>
 					<locked type="number">1</locked>
 					<name type="string">Spellmaster</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1659,7 +1659,7 @@
 					<level type="number">9</level>
 					<locked type="number">1</locked>
 					<name type="string">Instant Illusion</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1670,7 +1670,7 @@
 					<level type="number">10</level>
 					<locked type="number">1</locked>
 					<name type="string">Submit!</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1681,7 +1681,7 @@
 					<level type="number">13</level>
 					<locked type="number">1</locked>
 					<name type="string">By Will Alone</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1692,7 +1692,7 @@
 					<level type="number">14</level>
 					<locked type="number">1</locked>
 					<name type="string">Aura of Desolation</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>At 14th level you radiate a magical aura of evil. Whenever a hostile creature within 15 feet of you makes an attack roll or a saving throw, it must roll a d4 and subtract the number rolled from the result.</p>
@@ -1702,7 +1702,7 @@
 					<level type="number">15</level>
 					<locked type="number">1</locked>
 					<name type="string">Summon Hell</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>At 15th level you gain the ability to summon a Bone devil to serve you for one minute as an action once a week. The devil appears in an unoccupied space within 30’, it is bound to you and must obey your commands to the best of its ability. It acts on the same initiative you act on, and may both act and move on the turn you summon it. If you die or fall unconscious, the devil returns to Hell.</p>
@@ -1712,7 +1712,7 @@
 					<level type="number">17</level>
 					<locked type="number">1</locked>
 					<name type="string">Asmodeus' Blessing</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1723,7 +1723,7 @@
 					<level type="number">18</level>
 					<locked type="number">1</locked>
 					<name type="string">Magic Resistance</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1734,7 +1734,7 @@
 					<level type="number">20</level>
 					<locked type="number">1</locked>
 					<name type="string">Lore Devil</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Architect of Ruin</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -1972,7 +1972,7 @@
 						<p>Upon reaching 2nd level, you learn to use the power of hell to censure other creatures. As a bonus action, place a seal on a target within 30’. You can do this a number of times equal to your charisma modifier. You replenish all your seals after a <b>short or long rest</b>.</p>
 						<p>When you or an ally hits a target you can see with a seal on them, you may consume the seals to cause the attack to deal an additional 2d6 necrotic damage on the target per seal consumed. If you are within 30 feet of the target, you heal two points of damage for each die of damage your seals inflict.</p>
 						<p>A creature with a seal on them is an <i>interdicted</i> creature.</p>
-						<p>Seals evaporate if not used after one minute. Only the illrigger who placed the seal knows it’s there; it appears in the illrigger’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
+						<p>Seals evaporate if not used after one minute. Only the firebrand who placed the seal knows it’s there; it appears in the firebrand’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
 						<p>Upon reaching 10th level you feel your connection to your archdevil increase. Your seals inflict an extra 1d6 damage.</p>
 						<p>Your seals improve differently based on which contract you choose. These improvements are listed under your contract, below.</p>
 					</description>
@@ -2041,7 +2041,7 @@
 					</actions>
 					<cast type="number">0</cast>
 					<description type="formattedtext">
-						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the illrigger chart. With these dice you can transfer hit points between your illrigger and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
+						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the firebrand chart. With these dice you can transfer hit points between your firebrand and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
 						<p>As an action, choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. On a miss, nothing happens, you do not roll or lose your pool dice. If you hit, or if you’re targeting a willing creature, roll the chosen dice.</p>
 						<p>The result of your roll is the number of hit points you transfer. If touching an ally they gain that many hit points, ignoring any excess above their maximum. You lose hit points equal to the number they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.</p>
 						<p>If touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you are fully healed, you may use this power to gain temporary hit points. You cannot give another creature temporary hit points.</p>
@@ -2053,7 +2053,7 @@
 					<name type="string">Infernal Conduit</name>
 					<prepared type="number">0</prepared>
 					<ritual type="number">0</ritual>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 				</id-00004>
 				<id-00005>
@@ -2465,7 +2465,7 @@
 					</actions>
 					<cast type="number">0</cast>
 					<description type="formattedtext">
-						<p>At 2nd level you choose an illrigger Fighting Style;</p>
+						<p>At 2nd level you choose an firebrand Fighting Style;</p>
 						<p>
 							<b>Treachery</b>
 						</p>
@@ -2697,7 +2697,7 @@
 					<hddie type="dice">d10</hddie>
 					<hdused type="number">0</hdused>
 					<level type="number">20</level>
-					<name type="string">Illrigger</name>
+					<name type="string">Firebrand</name>
 					<shortcut type="windowreference">
 						<class>reference_class</class>
 						<recordname>reference.classdata.id-00001</recordname>
@@ -2719,7 +2719,7 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Forked Tongue</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>You have a facility with speech and know how to manipulate an audience. Whenever you make an ability check to persuade, deceive, or intimidate, you can treat a d20 roll of 7 or lower as an 8.</p>
@@ -2729,10 +2729,10 @@
 					<level type="number">1</level>
 					<locked type="number">1</locked>
 					<name type="string">Infernal Conduit</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
-						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the illrigger chart. With these dice you can transfer hit points between your illrigger and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
+						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the firebrand chart. With these dice you can transfer hit points between your firebrand and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
 						<p>As an action, choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. On a miss, nothing happens, you do not roll or lose your pool dice. If you hit, or if you’re targeting a willing creature, roll the chosen dice.</p>
 						<p>The result of your roll is the number of hit points you transfer. If touching an ally they gain that many hit points, ignoring any excess above their maximum. You lose hit points equal to the number they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.</p>
 						<p>If touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you are fully healed, you may use this power to gain temporary hit points. You cannot give another creature temporary hit points.</p>
@@ -2743,13 +2743,13 @@
 					<level type="number">2</level>
 					<locked type="number">1</locked>
 					<name type="string">Baleful Interdict</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>Upon reaching 2nd level, you learn to use the power of hell to censure other creatures. As a bonus action, place a seal on a target within 30’. You can do this a number of times equal to your charisma modifier. You replenish all your seals after a <b>short or long rest</b>.</p>
 						<p>When you or an ally hits a target you can see with a seal on them, you may consume the seals to cause the attack to deal an additional 2d6 necrotic damage on the target per seal consumed. If you are within 30 feet of the target, you heal two points of damage for each die of damage your seals inflict.</p>
 						<p>A creature with a seal on them is an <i>interdicted</i> creature.</p>
-						<p>Seals evaporate if not used after one minute. Only the illrigger who placed the seal knows it’s there; it appears in the illrigger’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
+						<p>Seals evaporate if not used after one minute. Only the firebrand who placed the seal knows it’s there; it appears in the firebrand’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
 						<p>Upon reaching 10th level you feel your connection to your archdevil increase. Your seals inflict an extra 1d6 damage.</p>
 						<p>Your seals improve differently based on which contract you choose. These improvements are listed under your contract, below.</p>
 					</text>
@@ -2758,10 +2758,10 @@
 					<level type="number">2</level>
 					<locked type="number">1</locked>
 					<name type="string">Fighting Style</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
-						<p>At 2nd level you choose an illrigger Fighting Style;</p>
+						<p>At 2nd level you choose an firebrand Fighting Style;</p>
 						<p>
 							<b>Treachery</b>
 						</p>
@@ -2783,13 +2783,13 @@
 				<id-00005>
 					<locked type="number">1</locked>
 					<name type="string">Painkiller</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<text type="formattedtext">
 						<p>
 							<i>The heavily armored death troopers of hell, the Painkillers serve Dispater, leading from the front of every major infernal battle.</i>
 						</p>
 						<p>Dispater is the Lord of Dis, the City of War. When Hell invades another world, Dispater’s army does the fighting and the dying. His Painkillers are master strategists who lead from the front, inspiring terror and awe in their soldiers. They are full of pride and hubris and present themselves as lordly, often having a fastidious obsession with their personal appearance.</p>
-						<p>The Painkillers are among the most chivalrous of the illriggers, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat, and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them, if winning.</p>
+						<p>The Painkillers are among the most chivalrous of the firebrands, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat, and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them, if winning.</p>
 						<p>In a moment of weakness or desperation, a ruler in another World might see their army facing certain defeat and call upon Dispater. Seeing the opportunity to sow strife and discord, Dispater might send a Painkiller to lead the desperate lord’s armies.</p>
 						<h>Features</h>
 						<linklist>
@@ -2811,7 +2811,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Bonus Proficiencies (Painkiller)</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -2822,7 +2822,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Tenets of Pain</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -2841,7 +2841,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Diabolic Contract</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">1</specializationchoice>
 					<text type="formattedtext">
 						<p>Upon reaching 3rd level you sign a diabolic contract with your archdevil who welcomes you into the Order of Desolation. Choose either Shadowmaster (Moloch), Painkiller (Dispater) or Architect of Ruin (Asmodeus) as your archdevil.You gain the Invoke Authority ability and choose either Shadowmaster (Moloch), Painkiller (Dispater) or Architect of Ruin (Asmodeus) as your archdevil.</p>
@@ -2857,7 +2857,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Invoke Authority (Painkiller)</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -2872,7 +2872,7 @@
 					<level type="number">3</level>
 					<locked type="number">1</locked>
 					<name type="string">Hellsight</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>By 3rd level your mastery of deception makes it easy for you to recognize the use of concealing sorcery. As an action you extend your awareness out from you. Until the end of your next turn, you know the location of creatures within 60 feet using magic to hide or disguise themselves.</p>
@@ -2883,7 +2883,7 @@
 					<level type="number">4</level>
 					<locked type="number">1</locked>
 					<name type="string">Ability Score Improvement</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
@@ -2893,7 +2893,7 @@
 					<level type="number">5</level>
 					<locked type="number">1</locked>
 					<name type="string">Extra Attack</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
@@ -2903,7 +2903,7 @@
 					<level type="number">6</level>
 					<locked type="number">1</locked>
 					<name type="string">I Am Death</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -2914,7 +2914,7 @@
 					<level type="number">7</level>
 					<locked type="number">1</locked>
 					<name type="string">By the Throat</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -2925,7 +2925,7 @@
 					<level type="number">9</level>
 					<locked type="number">1</locked>
 					<name type="string">Telekinetic Seal</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -2936,7 +2936,7 @@
 					<level type="number">10</level>
 					<locked type="number">1</locked>
 					<name type="string">Hell's Fury</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -2947,7 +2947,7 @@
 					<level type="number">13</level>
 					<locked type="number">1</locked>
 					<name type="string">You Die on My Command</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -2958,7 +2958,7 @@
 					<level type="number">14</level>
 					<locked type="number">1</locked>
 					<name type="string">Aura of Desolation</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>At 14th level you radiate a magical aura of evil. Whenever a hostile creature within 15 feet of you makes an attack roll or a saving throw, it must roll a d4 and subtract the number rolled from the result.</p>
@@ -2968,7 +2968,7 @@
 					<level type="number">15</level>
 					<locked type="number">1</locked>
 					<name type="string">Summon Hell</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
 						<p>At 15th level you gain the ability to summon a Bone devil to serve you for one minute as an action once a week. The devil appears in an unoccupied space within 30’, it is bound to you and must obey your commands to the best of its ability. It acts on the same initiative you act on, and may both act and move on the turn you summon it. If you die or fall unconscious, the devil returns to Hell.</p>
@@ -2978,7 +2978,7 @@
 					<level type="number">17</level>
 					<locked type="number">1</locked>
 					<name type="string">Steelmind</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -2989,7 +2989,7 @@
 					<level type="number">18</level>
 					<locked type="number">1</locked>
 					<name type="string">Deathstrike</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -3000,7 +3000,7 @@
 					<level type="number">20</level>
 					<locked type="number">1</locked>
 					<name type="string">Pain Devil</name>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 					<text type="formattedtext">
@@ -3208,7 +3208,7 @@
 					</actions>
 					<cast type="number">0</cast>
 					<description type="formattedtext">
-						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the illrigger chart. With these dice you can transfer hit points between your illrigger and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
+						<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the firebrand chart. With these dice you can transfer hit points between your firebrand and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
 						<p>As an action, choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. On a miss, nothing happens, you do not roll or lose your pool dice. If you hit, or if you’re targeting a willing creature, roll the chosen dice.</p>
 						<p>The result of your roll is the number of hit points you transfer. If touching an ally they gain that many hit points, ignoring any excess above their maximum. You lose hit points equal to the number they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.</p>
 						<p>If touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you are fully healed, you may use this power to gain temporary hit points. You cannot give another creature temporary hit points.</p>
@@ -3219,7 +3219,7 @@
 					<locked type="number">1</locked>
 					<name type="string">Infernal Conduit</name>
 					<prepared type="number">0</prepared>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specializationchoice type="number">0</specializationchoice>
 				</id-00001>
 				<id-00002>
@@ -3234,7 +3234,7 @@
 					</actions>
 					<cast type="number">0</cast>
 					<description type="formattedtext">
-						<p>At 2nd level you choose an illrigger Fighting Style;</p>
+						<p>At 2nd level you choose an firebrand Fighting Style;</p>
 						<p>
 							<b>Treachery</b>
 						</p>
@@ -3286,7 +3286,7 @@
 						<p>Upon reaching 2nd level, you learn to use the power of hell to censure other creatures. As a bonus action, place a seal on a target within 30’. You can do this a number of times equal to your charisma modifier. You replenish all your seals after a <b>short or long rest</b>.</p>
 						<p>When you or an ally hits a target you can see with a seal on them, you may consume the seals to cause the attack to deal an additional 2d6 necrotic damage on the target per seal consumed. If you are within 30 feet of the target, you heal two points of damage for each die of damage your seals inflict.</p>
 						<p>A creature with a seal on them is an <i>interdicted</i> creature.</p>
-						<p>Seals evaporate if not used after one minute. Only the illrigger who placed the seal knows it’s there; it appears in the illrigger’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
+						<p>Seals evaporate if not used after one minute. Only the firebrand who placed the seal knows it’s there; it appears in the firebrand’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
 						<p>Upon reaching 10th level you feel your connection to your archdevil increase. Your seals inflict an extra 1d6 damage.</p>
 						<p>Your seals improve differently based on which contract you choose. These improvements are listed under your contract, below.</p>
 					</description>
@@ -3587,7 +3587,7 @@
 					<locked type="number">1</locked>
 					<name type="string">By the Throat</name>
 					<prepared type="number">0</prepared>
-					<source type="string">Illrigger</source>
+					<source type="string">Firebrand</source>
 					<specialization type="string">Painkiller</specialization>
 					<specializationchoice type="number">0</specializationchoice>
 				</id-00014>
@@ -3756,7 +3756,7 @@
 								<i>The heavily armored death troopers of hell, the Painkillers serve Dispater, leading from the front of every major infernal battle.</i>
 							</p>
 							<p>Dispater is the Lord of Dis, the City of War. When Hell invades another world, Dispater’s army does the fighting and the dying. His Painkillers are master strategists who lead from the front, inspiring terror and awe in their soldiers. They are full of pride and hubris and present themselves as lordly, often having a fastidious obsession with their personal appearance.</p>
-							<p>The Painkillers are among the most chivalrous of the illriggers, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat, and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them, if winning.</p>
+							<p>The Painkillers are among the most chivalrous of the firebrands, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat, and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them, if winning.</p>
 							<p>In a moment of weakness or desperation, a ruler in another World might see their army facing certain defeat and call upon Dispater. Seeing the opportunity to sow strife and discord, Dispater might send a Painkiller to lead the desperate lord’s armies.</p>
 							<h>Features</h>
 							<linklist>
@@ -3781,7 +3781,7 @@
 							<p>
 								<i>The shadowmasters serve Moloch and excel at stealth and disguise, the hidden assassins of Hell.</i>
 							</p>
-							<p>Moloch is the Lord of Styx, the City of Lies. He strives to rule Hell through subterfuge, deceit and trickery. His illriggers are assassins, striking from the shadows or using deception to earn high ranking positions close to powerful rulers. Many shadowmasters run networks of spies and assassins who have no idea the infernal provenance of their master.</p>
+							<p>Moloch is the Lord of Styx, the City of Lies. He strives to rule Hell through subterfuge, deceit and trickery. His firebrands are assassins, striking from the shadows or using deception to earn high ranking positions close to powerful rulers. Many shadowmasters run networks of spies and assassins who have no idea the infernal provenance of their master.</p>
 							<p>The shadowmasters are sworn not to reveal themselves and to take their own lives before betraying their true allegiance. Many Shadowmasters have elaborate plans ready for their own assassination so that, should someone get close to discovering their true identity, they will be killed by their own assassins, preserving the truth. Of course, these killers have no idea who they were really working for…</p>
 							<h>Features</h>
 							<linklist>
@@ -3808,8 +3808,8 @@
 							<p>
 								<i>Hell’s Architects are cool and calculating arcane knights who deploy spell, steel and subterfuge to win the battle at any cost.</i>
 							</p>
-							<p>Asmodeus is the Lord of Acheron, the City of Fear. His illriggers scour the timescape collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other Lords of Hell is one of deception and propaganda.</p>
-							<p>Acheron’s illriggers work to make Hell’s enemies seem outnumbered and outmaneuvered. Half their strategy involves research and infiltration, the other half illusion and propaganda. When an Architect of Ruin finally confronts an enemy, they see the illrigger’s forces as impossibly powerful, while their own allies betray them and their armies flee in fear.</p>
+							<p>Asmodeus is the Lord of Acheron, the City of Fear. His firebrands scour the timescape collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other Lords of Hell is one of deception and propaganda.</p>
+							<p>Acheron’s firebrands work to make Hell’s enemies seem outnumbered and outmaneuvered. Half their strategy involves research and infiltration, the other half illusion and propaganda. When an Architect of Ruin finally confronts an enemy, they see the firebrand’s forces as impossibly powerful, while their own allies betray them and their armies flee in fear.</p>
 							<h>Features</h>
 							<linklist>
 								<link class="reference_classfeature" recordname="....features.id-00016">Tenets of Ruin</link>
@@ -3843,7 +3843,7 @@
 						<name type="string">Infernal Conduit</name>
 						<specializationchoice type="number">0</specializationchoice>
 						<text type="formattedtext">
-							<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the illrigger chart. With these dice you can transfer hit points between your illrigger and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
+							<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at first level. Your pool gains dice as shown on the firebrand chart. With these dice you can transfer hit points between your firebrand and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
 							<p>As an action, choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. On a miss, nothing happens, you do not roll or lose your pool dice. If you hit, or if you’re targeting a willing creature, roll the chosen dice.</p>
 							<p>The result of your roll is the number of hit points you transfer. If touching an ally they gain that many hit points, ignoring any excess above their maximum. You lose hit points equal to the number they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.</p>
 							<p>If touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you are fully healed, you may use this power to gain temporary hit points. You cannot give another creature temporary hit points.</p>
@@ -3856,7 +3856,7 @@
 						<name type="string">Fighting Style</name>
 						<specializationchoice type="number">0</specializationchoice>
 						<text type="formattedtext">
-							<p>At 2nd level you choose an illrigger Fighting Style;</p>
+							<p>At 2nd level you choose an firebrand Fighting Style;</p>
 							<p>
 								<b>Treachery</b>
 							</p>
@@ -3884,7 +3884,7 @@
 							<p>Upon reaching 2nd level, you learn to use the power of hell to censure other creatures. As a bonus action, place a seal on a target within 30’. You can do this a number of times equal to your charisma modifier. You replenish all your seals after a <b>short or long rest</b>.</p>
 							<p>When you or an ally hits a target you can see with a seal on them, you may consume the seals to cause the attack to deal an additional 2d6 necrotic damage on the target per seal consumed. If you are within 30 feet of the target, you heal two points of damage for each die of damage your seals inflict.</p>
 							<p>A creature with a seal on them is an <i>interdicted</i> creature.</p>
-							<p>Seals evaporate if not used after one minute. Only the illrigger who placed the seal knows it’s there; it appears in the illrigger’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
+							<p>Seals evaporate if not used after one minute. Only the firebrand who placed the seal knows it’s there; it appears in the firebrand’s sight as a glowing glyph on the creature’s forehead. If a creature with one of your seals on it dies, you may move the seal to another creature within range.</p>
 							<p>Upon reaching 10th level you feel your connection to your archdevil increase. Your seals inflict an extra 1d6 damage.</p>
 							<p>Your seals improve differently based on which contract you choose. These improvements are listed under your contract, below.</p>
 						</text>
@@ -4245,7 +4245,7 @@
 						<specialization type="string">Architect of Ruin</specialization>
 						<specializationchoice type="number">0</specializationchoice>
 						<text type="formattedtext">
-							<p>When Asmodeus accepts you as an Architect of Ruin, you gain access to his infernal power and learn to access divine magic to cast illrigger spells.</p>
+							<p>When Asmodeus accepts you as an Architect of Ruin, you gain access to his infernal power and learn to access divine magic to cast firebrand spells.</p>
 							<linklist>
 								<link class="referencemanualpage" recordname="reference.pages.page_spells">Architect of Ruin Spells</link>
 							</linklist>
@@ -4253,16 +4253,16 @@
 								<b>Preparing and Casting Spells</b>
 							</p>
 							<p>
-								<b>Cantrips.</b> You learn two cantrips of your choice from the illrigger spell list. You learn an additional cantrip at 8th level.</p>
+								<b>Cantrips.</b> You learn two cantrips of your choice from the firebrand spell list. You learn an additional cantrip at 8th level.</p>
 							<p>
 								<b>Spell Slots.</b> The Architect of Ruin Spellcasting table shows how many spell slots you have. To cast one of these spells you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
-							<p>You prepare the list of illrigger spells that are available for you to cast, choosing from the illrigger spell list. When you do so, choose a number of illrigger spells equal to your Charisma modifier + half yourillrigger level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
-							<p>For example, if you are a 5th-level illrigger, you have three 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell hell’s lash , you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
-							<p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of illrigger spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+							<p>You prepare the list of firebrand spells that are available for you to cast, choosing from the firebrand spell list. When you do so, choose a number of firebrand spells equal to your Charisma modifier + half yourfirebrand level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+							<p>For example, if you are a 5th-level firebrand, you have three 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell hell’s lash , you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p>
+							<p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of firebrand spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
 							<p>
 								<b>Spellcasting Ability</b>
 							</p>
-							<p>Charisma is your spellcasting ability for your illrigger spells, since their power derives from your ability to command the attention of your patron archdevil. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for an illrigger spell you cast and when making an attack roll with one.</p>
+							<p>Charisma is your spellcasting ability for your firebrand spells, since their power derives from your ability to command the attention of your patron archdevil. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for an firebrand spell you cast and when making an attack roll with one.</p>
 							<p>
 								<b>Spell save DC =</b> 8 + your proficiency bonus + your Charisma modifier</p>
 							<p>
@@ -4272,7 +4272,7 @@
 							</p>
 							<table>
 								<tr>
-									<td>Illrigger Level</td>
+									<td>Firebrand Level</td>
 									<td>Cantrips Known</td>
 									<td>1st</td>
 									<td>2nd</td>
@@ -4546,7 +4546,7 @@
 				</features>
 				<hp>
 					<hitdice>
-						<text type="string">1d10 per illrigger level</text>
+						<text type="string">1d10 per firebrand level</text>
 					</hitdice>
 				</hp>
 				<locked type="number">1</locked>
@@ -4566,7 +4566,7 @@
 						<text type="string">Simple weapons, martial weapons</text>
 					</weapons>
 				</multiclassproficiencies>
-				<name type="string">Illrigger</name>
+				<name type="string">Firebrand</name>
 				<proficiencies>
 					<armor>
 						<name type="string">Armor</name>
@@ -4590,14 +4590,14 @@
 					</weapons>
 				</proficiencies>
 				<text type="formattedtext">
-					<h>The Illrigger</h>
+					<h>The Firebrand</h>
 					<p>The archdevils who rule the Seven Cities of Hell scheme and plot endlessly, eternally. Each seeks to bring the others to heel. To ascend to the Throne of Hell, unite the seven cities and every infernal thing that lives there, and lead an infinite army of devils across the timescape until all worlds burn.</p>
-					<p>Their elite shock troops, the terror-commandos of Hell, are the illriggers. Knights of hell, they are high charisma counter-paladins who master devils, disrupt enemy organizations, and command Hell’s armies.</p>
+					<p>Their elite shock troops, the terror-commandos of Hell, are the firebrands. Knights of hell, they are high charisma counter-paladins who master devils, disrupt enemy organizations, and command Hell’s armies.</p>
 					<h>The Order of Desolation</h>
-					<p>Acceptance into the Order of Illriggers makes you a comrade with every other illrigger, regardless of which archdevil you serve. Each archdevil has churches, underground fanes, secret societies, cults. All with leaders manically devoted to the archdevil who grants them their power. But the association of illriggers consider themselves an order of knights who serve Hell rather than cultists slavishly devoted to a single Archdevil.</p>
-					<p>Members of the Order of Desolation, also known as the Desolate, are expected to be independent, intelligent, resourceful, tactical, manipulative. A temple or cult may believe that the presence of an illrigger in their midst is a sign that their archdevil approves of their actions, but the illriggers are independent. The order was founded to give the Lords of Hell agents capable of acting across the timescape, free from the direct control of their patron. An illrigger has many powerful abilities granted by their archdevil, but more precious is their patron’s trust. Left to their own devices, the illrigger is expected to sow discord, pain, strife, deceit, and fear without instruction or supervision.</p>
-					<p>It is not unusual, therefore, for a member of the Order of Desolation to rely on other members of the order first, even from illriggers who serve other archdevils before going to any church, cult, or temple to their own archdevil.</p>
-					<h>The Illrigger</h>
+					<p>Acceptance into the Order of Firebrands makes you a comrade with every other firebrand, regardless of which archdevil you serve. Each archdevil has churches, underground fanes, secret societies, cults. All with leaders manically devoted to the archdevil who grants them their power. But the association of firebrands consider themselves an order of knights who serve Hell rather than cultists slavishly devoted to a single Archdevil.</p>
+					<p>Members of the Order of Desolation, also known as the Desolate, are expected to be independent, intelligent, resourceful, tactical, manipulative. A temple or cult may believe that the presence of an firebrand in their midst is a sign that their archdevil approves of their actions, but the firebrands are independent. The order was founded to give the Lords of Hell agents capable of acting across the timescape, free from the direct control of their patron. An firebrand has many powerful abilities granted by their archdevil, but more precious is their patron’s trust. Left to their own devices, the firebrand is expected to sow discord, pain, strife, deceit, and fear without instruction or supervision.</p>
+					<p>It is not unusual, therefore, for a member of the Order of Desolation to rely on other members of the order first, even from firebrands who serve other archdevils before going to any church, cult, or temple to their own archdevil.</p>
+					<h>The Firebrand</h>
 					<table>
 						<tr>
 							<td>Level</td>
@@ -4727,14 +4727,14 @@
 						</tr>
 					</table>
 					<h>Class Features</h>
-					<p>As an illrigger you gain the following class features.</p>
+					<p>As an firebrand you gain the following class features.</p>
 					<h>Hit Points</h>
 					<p>
-						<b>Hit Dice:</b> 1d10 per illrigger level</p>
+						<b>Hit Dice:</b> 1d10 per firebrand level</p>
 					<p>
 						<b>Hit Points at 1st Level:</b> 10 + your Constitution modifier</p>
 					<p>
-						<b>Hit Points at Higher Levels:</b> 1d10 (or 6) + your Constitution modifier per illrigger level after 1st</p>
+						<b>Hit Points at Higher Levels:</b> 1d10 (or 6) + your Constitution modifier per firebrand level after 1st</p>
 					<h>Proficiencies</h>
 					<p>
 						<b>Armor:</b> Light armor, medium armor, shields</p>
@@ -4761,17 +4761,17 @@
 						<link class="reference_adventuringgeartable" recordname="reference.equipmentlists.toolstable@DD PHB Deluxe">Link: Tools</link>
 					</linklist>
 					<h>Multiclassing</h>
-					<p>An existing character choosing to multiclass into Illrigger must meet the following prerequisites;</p>
+					<p>An existing character choosing to multiclass into Firebrand must meet the following prerequisites;</p>
 					<list>
 						<li>Charisma 13</li>
 						<li>Strength 13 or Dexterity 13</li>
 					</list>
-					<p>You gain the following proficiencies when you choose Illrigger as a new class;</p>
+					<p>You gain the following proficiencies when you choose Firebrand as a new class;</p>
 					<list>
 						<li>Light armor, medium armor, shields</li>
 						<li>Simple weapons, martial weapons</li>
 					</list>
-					<p>Multiclass characters divide their Illrigger levels by three for the purposes of determining how many spell slots they get.</p>
+					<p>Multiclass characters divide their Firebrand levels by three for the purposes of determining how many spell slots they get.</p>
 					<h>Features</h>
 					<linklist>
 						<link class="reference_classfeature" recordname="..features.id-00001">Forked Tongue</link>
@@ -5716,10 +5716,10 @@
 		<refmanualindex static="true">
 			<chapters>
 				<chapter_0>
-					<name type="string">The Illrigger</name>
+					<name type="string">The Firebrand</name>
 					<subchapters>
 						<subchapter_0>
-							<name type="string">The Illrigger</name>
+							<name type="string">The Firebrand</name>
 							<refpages>
 								<page_0_0>
 									<listlink type="windowreference">
@@ -5759,10 +5759,10 @@
 				<name type="string">Preface</name>
 				<text type="formattedtext">
 					<h>v2.3</h>
-					<p>The Illrigger is MCDM’s first custom class. Illriggers are intended to be versatile armored warriors with a wide array of supernatural abilities that reflect the infernal source of their power. Depending on their contract they can be highly mobile stealthy assassins, heavily armored battlefield commanders, or fighting mages and anti-mages. We hope you like this beta test, your feedback will make the class more fun and playable for everyone.</p>
-					<p>The Illrigger is weird: one of its core abilities, Baleful Interdict, improves based on which Archdevil you serve. So instead of three improvements to one ability listed at the top of the document, Baleful Interdict is described once, but then under each specialty there are three dif erent improvements. We think this allows the different Illrigger specializations to shine and feel unique. 3rd party design is a good place for such weirdness, we feel.</p>
-					<p>At this point the Illrigger has undergone a lot of testing and revision. We’ll always be updating the class based on how people are using it, but we feel the current text largely reflects our design goals.</p>
-					<p>If you get the chance, please use the illrigger in your game and report back. Often, something will <b>seem</b> complex or overpowered or underpowered when you read it, but then it turns out not to be a problem in play. It’s very easy to <b>imagine</b> scenarios where an ability might be unbalanced, but in <b>practice</b> that scenario might be very rare.</p>
+					<p>The Firebrand is MCDM’s first custom class. Firebrands are intended to be versatile armored warriors with a wide array of supernatural abilities that reflect the infernal source of their power. Depending on their contract they can be highly mobile stealthy assassins, heavily armored battlefield commanders, or fighting mages and anti-mages. We hope you like this beta test, your feedback will make the class more fun and playable for everyone.</p>
+					<p>The Firebrand is weird: one of its core abilities, Baleful Interdict, improves based on which Archdevil you serve. So instead of three improvements to one ability listed at the top of the document, Baleful Interdict is described once, but then under each specialty there are three dif erent improvements. We think this allows the different Firebrand specializations to shine and feel unique. 3rd party design is a good place for such weirdness, we feel.</p>
+					<p>At this point the Firebrand has undergone a lot of testing and revision. We’ll always be updating the class based on how people are using it, but we feel the current text largely reflects our design goals.</p>
+					<p>If you get the chance, please use the firebrand in your game and report back. Often, something will <b>seem</b> complex or overpowered or underpowered when you read it, but then it turns out not to be a problem in play. It’s very easy to <b>imagine</b> scenarios where an ability might be unbalanced, but in <b>practice</b> that scenario might be very rare.</p>
 				</text>
 			</page_preface>
 			<page_changes>
@@ -5799,7 +5799,7 @@
 							<p>We’d like to encourage Shadowmasters to be competitive using only daggers (or sickles, or any exotic homebrew light weapon the DM feels is appropriate) and so added the ability <b>Dagger Adept</b> at 3rd level which increases the number of attacks, and damage dice of these weapons at certain levels.</p>
 							<p>The goal is not to make the Shadowmaster <i>better</i> with these weapons than other classes are with their signature weapon; only to allow the Shadowmaster to use “only daggers” and still be competitive.</p>
 							<h>Ults</h>
-							<p>Two Illriggers subclasses, the Painkiller and the Architect of Ruin have 20th level capstone abilities that grant increases to their stats. Tracking stat changes is tedious and useful only insofar as they affect things like attacks, hit points and save DCs. So we removed that language and just granted bonuses to those things directly.</p>
+							<p>Two Firebrands subclasses, the Painkiller and the Architect of Ruin have 20th level capstone abilities that grant increases to their stats. Tracking stat changes is tedious and useful only insofar as they affect things like attacks, hit points and save DCs. So we removed that language and just granted bonuses to those things directly.</p>
 							<h>Forked Tongue</h>
 							<p>This ability was needlessly complex, so we revised it to create a lower-bound to the player’s roll, rather than referencing proficiencies or bonuses.</p>
 						</text>
@@ -5811,7 +5811,7 @@
 				<text type="formattedtext">
 					<h>General Notes</h>
 					<p>A pregenerated 20th level character for each subclass is provided as an example of how one might set up the abilities on the Actions tab. While each ability may be copied by dragging and dropping, the groups cannot and will require manual setup for tracking uses. See below for additional notes on each ability.</p>
-					<h>The Illrigger</h>
+					<h>The Firebrand</h>
 					<p><b>Forked Tongue</b></p>
 					<p>Requires manual consideration.</p>
 					<p><b>Infernal Conduit</b></p>
@@ -5875,7 +5875,7 @@
 					<p>Veteran of Sorcery is included for usage tracking.</p>
 					<p>Spellbreaker is included for usage tracking.</p>
 					<p><b>Spellcasting</b></p>
-					<p>Due to the Illrigger having a unique spell slot progression, they will need to be corrected manually when levelling.</p>
+					<p>Due to the Firebrand having a unique spell slot progression, they will need to be corrected manually when levelling.</p>
 					<p><b>Hellmage</b></p>
 					<p>Nothing to automate, just mark the seal as used.</p>
 					<p><b>Spellmaster</b></p>
