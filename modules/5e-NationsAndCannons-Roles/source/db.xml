@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="4" dataversion="20200528" release="8|CoreRPG:4">
+	<library>
+		<nationsandcannons static="true">
+			<categoryname type="string">5e</categoryname>
+			<name type="string">nationsandcannons</name>
+			<entries>
+				<race static="true">
+					<librarylink type="windowreference">
+						<class>reference_list</class>
+						<recordname>..</recordname>
+					</librarylink>
+					<name type="string">Races</name>
+					<recordtype type="string">race</recordtype>
+				</race>
+			</entries>
+		</nationsandcannons>
+	</library>
+	<race>
+		<id-00003>
+			<text type="formattedtext">
+				<p></p>
+			</text>
+		</id-00003>
+		<id-00004>
+			<locked type="number">1</locked>
+			<name type="string">Role - Officer</name>
+			<subraces>
+				<id-00001>
+					<name type="string">Foreign Officer - A foreign officer may choose a different heritege. They exchange English for their heritege language.</name>
+				</id-00001>
+			</subraces>
+			<text type="formattedtext">
+				<h>Leaders of Men</h>
+				<p>The Officers that lead light infantry are an altogether different group of men. Resourceful, dedicated, skilled at subterfuge, these expert soldiers know how to formulate a strategy and execute it with only a handful of men, and improvise when the plan goes awry. While some officers furnish their command at personal expense, others are more interested in accumulating wealth during their service.</p>
+				<h>Superior Officer</h>
+				<p>Members of light infantry companies are given a wide latitude, often encouraged to pick their own target and plan of attack. This laissez-faire approach increases flexibility in the field but can lead to some troubling notions. Troops accustomed to operating independently may grow reluctant to follow the chain of command — and make no mistake, you are the authority while deployed. Your men would do well to listen when the officers in the party speak.</p>
+				<p></p>
+				<h>Officer Traits</h>
+				<p>
+					<i>Your character’s traits represent your officer rank.</i>
+				</p>
+				<list>
+					<li>
+						<b>Ability Score Increase.</b> One ability score of your choice increases by 2.</li>
+					<li>
+						<b>Heritage.</b> Your heritage must be British or Colonial.</li>
+					<li>
+						<b>Speed</b>. Your base walking speed is 30 feet.</li>
+					<li>
+						<b>Brave.</b> You have advantage on saving throws against being frightened.</li>
+					<li>
+						<b>Commissioned.</b> As a Lieutenant, you lead a halfplatoon of soldiers into battle. Your starting wealth is £ 40, twice that of an enlisted soldier, and you are entitled to adouble salary after completing a mission.</li>
+					<li>
+						<b>Code of Conduct. </b>You are the face of your section, and are held to a high standard. You have advantage on Charisma-based checks when dealing with the army, government, or allied partisans. If you are disgraced before a superior officer, such as for looting or disobeying orders, you lose this benefit until you can make amends. If you continually engage in conduct unbefitting an officer, your commission may be reduced in rank or even stripped away.</li>
+					<li>
+						<b>Skill Training.</b> You gain proficiency in one skill of your choice.</li>
+					<li>
+						<b>Tactician.</b> You know just how to turn the tide ofbattle. As a bonus action, you can grant inspiration to one ally within 30 feet. You can’t use this feature again until after you finish a short or long rest.</li>
+					<li>
+						<b>Language.</b> You can read, write, and speak English.</li>
+				</list>
+			</text>
+			<traits>
+				<id-00001>
+					<name type="string">Ability Score Increase. One ability score of your choice increases by 2.</name>
+				</id-00001>
+				<id-00003>
+					<name type="string">Heritage. Your heritage must be British or Colonial.</name>
+				</id-00003>
+				<id-00004>
+					<name type="string">Speed. Your base walking speed is 30 feet.</name>
+				</id-00004>
+				<id-00005>
+					<name type="string">Brave. You have advantage on saving throws against being frightened.</name>
+				</id-00005>
+				<id-00006>
+					<name type="string">Commissioned. As a Lieutenant, you lead a halfplatoon of soldiers into battle. Your starting wealth is £ 40, twice that of an enlisted soldier, and you are entitled to adouble salary after completing a mission.</name>
+				</id-00006>
+				<id-00007>
+					<name type="string">Code of Conduct. You are the face of your section, and are held to a high standard. You have advantage on Charisma-based checks when dealing with the army, government, or allied partisans. If you are disgraced before a superior officer, such as for looting or disobeying orders, you lose this benefit until you can make amends. If you continually engage in conduct unbefitting an officer, your commission may be reduced in rank or even stripped away.</name>
+				</id-00007>
+				<id-00008>
+					<name type="string">Skill Training. You gain proficiency in one skill of your choice.</name>
+				</id-00008>
+				<id-00009>
+					<name type="string">Tactician. You know just how to turn the tide of battle. As a bonus action, you can grant inspiration to one ally within 30 feet. You can’t use this feature again until after you finish a short or long rest.</name>
+				</id-00009>
+				<id-00010>
+					<name type="string">Language. You can read, write, and speak English.</name>
+				</id-00010>
+			</traits>
+		</id-00004>
+		<id-00005>
+			<locked type="number">1</locked>
+			<name type="string">Role - Pioneer</name>
+			<subraces>
+				<id-00001>
+					<name type="string">Foreign Officer - A foreign officer may choose a different heritege. They exchange English for their heritege language.</name>
+				</id-00001>
+			</subraces>
+			<text type="formattedtext">
+				<h>Leaders of Men</h>
+				<p>The Officers that lead light infantry are an altogether different group of men. Resourceful, dedicated, skilled at subterfuge, these expert soldiers know how to formulate a strategy and execute it with only a handful of men, and improvise when the plan goes awry. While some officers furnish their command at personal expense, others are more interested in accumulating wealth during their service.</p>
+				<h>Superior Officer</h>
+				<p>Members of light infantry companies are given a wide latitude, often encouraged to pick their own target and plan of attack. This laissez-faire approach increases flexibility in the field but can lead to some troubling notions. Troops accustomed to operating independently may grow reluctant to follow the chain of command — and make no mistake, you are the authority while deployed. Your men would do well to listen when the officers in the party speak.</p>
+				<p></p>
+				<h>Officer Traits</h>
+				<p>
+					<i>Your character’s traits represent your officer rank.</i>
+				</p>
+				<list>
+					<li>
+						<b>Ability Score Increase.</b> One ability score of your choice increases by 2.</li>
+					<li>
+						<b>Heritage.</b> Your heritage must be British or Colonial.</li>
+					<li>
+						<b>Speed</b>. Your base walking speed is 30 feet.</li>
+					<li>
+						<b>Brave.</b> You have advantage on saving throws against being frightened.</li>
+					<li>
+						<b>Commissioned.</b> As a Lieutenant, you lead a halfplatoon of soldiers into battle. Your starting wealth is £ 40, twice that of an enlisted soldier, and you are entitled to adouble salary after completing a mission.</li>
+					<li>
+						<b>Code of Conduct. </b>You are the face of your section, and are held to a high standard. You have advantage on Charisma-based checks when dealing with the army, government, or allied partisans. If you are disgraced before a superior officer, such as for looting or disobeying orders, you lose this benefit until you can make amends. If you continually engage in conduct unbefitting an officer, your commission may be reduced in rank or even stripped away.</li>
+					<li>
+						<b>Skill Training.</b> You gain proficiency in one skill of your choice.</li>
+					<li>
+						<b>Tactician.</b> You know just how to turn the tide ofbattle. As a bonus action, you can grant inspiration to one ally within 30 feet. You can’t use this feature again until after you finish a short or long rest.</li>
+					<li>
+						<b>Language.</b> You can read, write, and speak English.</li>
+				</list>
+			</text>
+			<traits>
+				<id-00001>
+					<name type="string">Ability Score Increase. One ability score of your choice increases by 2.</name>
+				</id-00001>
+				<id-00003>
+					<name type="string">Heritage. Your heritage must be British or Colonial.</name>
+				</id-00003>
+				<id-00004>
+					<name type="string">Speed. Your base walking speed is 30 feet.</name>
+				</id-00004>
+				<id-00005>
+					<name type="string">Brave. You have advantage on saving throws against being frightened.</name>
+				</id-00005>
+				<id-00006>
+					<name type="string">Commissioned. As a Lieutenant, you lead a halfplatoon of soldiers into battle. Your starting wealth is £ 40, twice that of an enlisted soldier, and you are entitled to adouble salary after completing a mission.</name>
+				</id-00006>
+				<id-00007>
+					<name type="string">Code of Conduct. You are the face of your section, and are held to a high standard. You have advantage on Charisma-based checks when dealing with the army, government, or allied partisans. If you are disgraced before a superior officer, such as for looting or disobeying orders, you lose this benefit until you can make amends. If you continually engage in conduct unbefitting an officer, your commission may be reduced in rank or even stripped away.</name>
+				</id-00007>
+				<id-00008>
+					<name type="string">Skill Training. You gain proficiency in one skill of your choice.</name>
+				</id-00008>
+				<id-00009>
+					<name type="string">Tactician. You know just how to turn the tide of battle. As a bonus action, you can grant inspiration to one ally within 30 feet. You can’t use this feature again until after you finish a short or long rest.</name>
+				</id-00009>
+				<id-00010>
+					<name type="string">Language. You can read, write, and speak English.</name>
+				</id-00010>
+			</traits>
+		</id-00005>
+		<id-00006>
+			<locked type="number">1</locked>
+			<name type="string">Role - Renegade</name>
+			<subraces>
+				<id-00001>
+					<name type="string">Foreign Officer - A foreign officer may choose a different heritege. They exchange English for their heritege language.</name>
+				</id-00001>
+			</subraces>
+			<text type="formattedtext">
+				<h>Leaders of Men</h>
+				<p>The Officers that lead light infantry are an altogether different group of men. Resourceful, dedicated, skilled at subterfuge, these expert soldiers know how to formulate a strategy and execute it with only a handful of men, and improvise when the plan goes awry. While some officers furnish their command at personal expense, others are more interested in accumulating wealth during their service.</p>
+				<h>Superior Officer</h>
+				<p>Members of light infantry companies are given a wide latitude, often encouraged to pick their own target and plan of attack. This laissez-faire approach increases flexibility in the field but can lead to some troubling notions. Troops accustomed to operating independently may grow reluctant to follow the chain of command — and make no mistake, you are the authority while deployed. Your men would do well to listen when the officers in the party speak.</p>
+				<p></p>
+				<h>Officer Traits</h>
+				<p>
+					<i>Your character’s traits represent your officer rank.</i>
+				</p>
+				<list>
+					<li>
+						<b>Ability Score Increase.</b> One ability score of your choice increases by 2.</li>
+					<li>
+						<b>Heritage.</b> Your heritage must be British or Colonial.</li>
+					<li>
+						<b>Speed</b>. Your base walking speed is 30 feet.</li>
+					<li>
+						<b>Brave.</b> You have advantage on saving throws against being frightened.</li>
+					<li>
+						<b>Commissioned.</b> As a Lieutenant, you lead a halfplatoon of soldiers into battle. Your starting wealth is £ 40, twice that of an enlisted soldier, and you are entitled to adouble salary after completing a mission.</li>
+					<li>
+						<b>Code of Conduct. </b>You are the face of your section, and are held to a high standard. You have advantage on Charisma-based checks when dealing with the army, government, or allied partisans. If you are disgraced before a superior officer, such as for looting or disobeying orders, you lose this benefit until you can make amends. If you continually engage in conduct unbefitting an officer, your commission may be reduced in rank or even stripped away.</li>
+					<li>
+						<b>Skill Training.</b> You gain proficiency in one skill of your choice.</li>
+					<li>
+						<b>Tactician.</b> You know just how to turn the tide ofbattle. As a bonus action, you can grant inspiration to one ally within 30 feet. You can’t use this feature again until after you finish a short or long rest.</li>
+					<li>
+						<b>Language.</b> You can read, write, and speak English.</li>
+				</list>
+			</text>
+			<traits>
+				<id-00001>
+					<name type="string">Ability Score Increase. One ability score of your choice increases by 2.</name>
+				</id-00001>
+				<id-00003>
+					<name type="string">Heritage. Your heritage must be British or Colonial.</name>
+				</id-00003>
+				<id-00004>
+					<name type="string">Speed. Your base walking speed is 30 feet.</name>
+				</id-00004>
+				<id-00005>
+					<name type="string">Brave. You have advantage on saving throws against being frightened.</name>
+				</id-00005>
+				<id-00006>
+					<name type="string">Commissioned. As a Lieutenant, you lead a halfplatoon of soldiers into battle. Your starting wealth is £ 40, twice that of an enlisted soldier, and you are entitled to adouble salary after completing a mission.</name>
+				</id-00006>
+				<id-00007>
+					<name type="string">Code of Conduct. You are the face of your section, and are held to a high standard. You have advantage on Charisma-based checks when dealing with the army, government, or allied partisans. If you are disgraced before a superior officer, such as for looting or disobeying orders, you lose this benefit until you can make amends. If you continually engage in conduct unbefitting an officer, your commission may be reduced in rank or even stripped away.</name>
+				</id-00007>
+				<id-00008>
+					<name type="string">Skill Training. You gain proficiency in one skill of your choice.</name>
+				</id-00008>
+				<id-00009>
+					<name type="string">Tactician. You know just how to turn the tide of battle. As a bonus action, you can grant inspiration to one ally within 30 feet. You can’t use this feature again until after you finish a short or long rest.</name>
+				</id-00009>
+				<id-00010>
+					<name type="string">Language. You can read, write, and speak English.</name>
+				</id-00010>
+			</traits>
+		</id-00006>
+	</race>
+</root>

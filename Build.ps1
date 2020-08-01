@@ -9,15 +9,11 @@ function Export-ToFantasyGrounds {
     Pop-Location
 }
 
-# Get-Command -Name Export-ToFantasyGrounds -Syntax
-
-# Get children of extensions
-# Get children of modules
-# Combine them into single list
-# For each directory, Export-ToFantasyGrounds
+#export the extensions
 foreach ($exportDirectory in (Get-ChildItem ".\extensions\*")) {
     Export-ToFantasyGrounds -directory $exportDirectory
 }
+#export the modules
 foreach ($exportDirectory in (Get-ChildItem ".\modules\*")) {
     Export-ToFantasyGrounds -directory $exportDirectory
 }
